@@ -1,2 +1,9 @@
 # BD-NAD-GLOBAL
-Tablas, Bases de datos, Vistas y Procedimientos
+
+# Bases de Datos usadas
+
+# Tablas Creadas
+
+# Vistas
+
+# Procedimientos Almacenados
