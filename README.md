@@ -1,6 +1,8 @@
 # BD-NAD-GLOBAL
 
 ## Bases de Datos usadas
+Usar la existente
+- Use DBSGICE_ERP
 
 ## Tablas Creadas
 Nomenclatura tablas
