@@ -1,27 +1,38 @@
 # BD-NAD-GLOBAL
 
 ## Bases de Datos usadas
-Usar la existente
-- Use DBSGICE_ERP
+Usar DB proporcionada
+> Use DBSGICE_ERP
 
-## Tablas Creadas
-Nomenclatura tablas
-- t_NombreTab
+## Creación y manipulación de Tablas
+Estructura para nombrar la Tabla
+> t_NombreTab
+
+Estructura para renombrar tablas
+> t_NombreTab as tN
   
-## Vistas
-- Create view v_NombreVista
+  - <em> Ejemplos </em>
+    > t_Servidores as tS <br>
+    > t_Aplicaciones as tA
+  
+## Creación de Vistas
+Estructura para nombrar la Vista
+> v_NombreVista
 
 ## Procedimientos Almacenados
-Nomenclatura 1 palabra
-- sp_Nombre
+Estructura para nombrar el Procedimiento Almacenado
+- Con un nombre
+  > sp_Nombre
 
-Nomenclatura para dos palabras:
-- sp_NombrePro
+- Con dos nombres
+  > sp_NombrePro
 
-Nomenclatura para tres o mas palabras:
-- sp_NombreProAlm
+- Con tres o más nombres
+  > sp_NombreProAlm
 
-
-<strong>Nota: Usar en la pimera letra en mayúscula y minúscula en el resto de la palabra en la creacion de cualquier actividad dentro de la base de datos,
-de igual manera dejar y separar por sangria para mayor identificación de los bloques.</strong>
+<strong>
+  - Las palabras clave irán con la primer letra en mayuscula, el resto serán en minuscula. (Create, Delete, Update, Select) <br>
+  - El tipado de datos será en minuscula al declarar variables o columnas. (varchar, int, bit, date) <br>
+  - Aplicar sangrías en sentencias de código para facilitar y agilitar lectura lectura. <br>
+</strong>
 
