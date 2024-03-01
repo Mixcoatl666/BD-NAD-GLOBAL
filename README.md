@@ -4,31 +4,33 @@
 Usar DB proporcionada
 > Use DBSGICE_ERP
 
-## Creación y manipulación de Tablas
-Estructura para nombrar la Tabla
-> t_NombreTab
+# Creación y manipulación de Tablas
+**Nota:** Se corrigio la sintaxix ya que la que tiene la empresa seria iniciar con t para una tabla y c para un catalogo ya sea de servidores o aplicaciones.
 
-Estructura para renombrar tablas
-> t_NombreTab as tN
+## Estructura para nombrar la Tabla
+> tNombreTabla
+
+## Estructura para renombrar tablas
+> tNombreTab as tN
   
   - <em> Ejemplos </em>
-    > t_Servidores as tS <br>
-    > t_Aplicaciones as tA
+    > cServidores as tS <br>
+    > cAplicaciones as tA
   
 ## Creación de Vistas
 Estructura para nombrar la Vista
-> v_NombreVista
+> vNombreVista
 
 ## Procedimientos Almacenados
 Estructura para nombrar el Procedimiento Almacenado
 - Con un nombre
-  > sp_Nombre
+  > spNombre
 
 - Con dos nombres
-  > sp_NombrePro
+  > spNombrePro
 
 - Con tres o más nombres
-  > sp_NombreProAlm
+  > spNombreProAlm
 
 <strong>
   - Las palabras clave irán con la primer letra en mayuscula, el resto serán en minuscula. (Create, Delete, Update, Select) <br>
